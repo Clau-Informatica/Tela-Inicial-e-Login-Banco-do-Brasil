@@ -1,0 +1,116 @@
+﻿body {
+    margin: 0;
+}
+
+header {
+    height: 95px;
+    background-color: #F8D117;
+    width: 100%;
+}
+
+header h1 {
+    display: table-cell;
+    margin: auto;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #0a39ab;
+    font-family: arial, sans-serif;
+    }
+
+span {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #0a39ab;
+    font-family: arial, sans-serif;
+}
+
+img.logo {
+    float: left;
+    width: 59px;
+    height: 59px;
+    margin-top: 18px;
+    z-index: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+div#topo {
+    min-width: 620px;
+    max-width: 620px;
+    display: table;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+div#conteudo {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div#box {
+    width: 370px;
+    height: 460px;
+    background: #F8D117;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+span#topo_box {
+    font-size: 24px;
+    color: #0a39ab;
+    font-family: arial, sans-serif;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+
+input#campo {
+    height: 50px;
+    text-align: center;
+    background-color: #f9e867;
+    border: none;
+    width: 80%;
+    margin: 0 35px 8px 35px;
+}
+
+input#radio {
+    margin: 0 -25px 0 70px;
+}
+
+label {
+    margin: 0 0 0 40px;
+    font-family: arial, sans-serif;
+}
+
+label#rodape {
+    color: chocolate;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    color: chocolate;
+}
+
+button#continuar {
+    height: 50px;
+    width: 70%;
+    background-color: #1194f6;
+    border: none;
+    color: aliceblue;
+    display: block;
+    margin: 15px auto;
+}
+
+a {
+    font-size: 20px;
+}
+
