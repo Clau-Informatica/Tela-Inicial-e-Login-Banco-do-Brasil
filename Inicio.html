@@ -6,17 +6,36 @@
     <title> Pra você | Banco do Brasil </title>
     <link rel="stylesheet" href="./style/inicio.css" />
 </head>
-<body>
     <header>
         <div id="topo">
             <h3> <span tabindex="0"> Pra Você </span>
             <span> Pro Seu Negócio </span>
             <span> Agronegócios </span>
             <span> Setor Público</span>
-            <span> <input type="search" placeholder="O que você precisa?" /> </span></h3>
+            <span> <input type="search" placeholder="O que você precisa?" id="pesquisa" /> </span></h3>
         </div>
     </header>
     <hr />
-    <img src="fundo1.jpg" id="fundo" draggable="true"/>
+<body>
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked/>
+            <input type="radio" name="slide" id="slide2" />
+
+            <div class="slide s1">
+                <img src="fundo1.jpg" />
+                
+            </div>
+            <div class="slide">
+                <img src="fundo2.jpg" />
+            </div>
+
+        </div>
+        <div class="navigation">
+            <label for="slide1" class="bar"> </label>
+            <label for="slide2" class="bar"> </label>
+        </div>
+    </div>
+
 </body>
 </html>
