@@ -1,7 +1,8 @@
 ﻿header {
     height: 60px;
-    background-color: #F8D117;
+    background-color: #fcfc30;
     width: 100%;
+    position: fixed;
 }
 
 header h3 {
@@ -35,7 +36,13 @@ span {
 input {
     height: 40px;
     width: 250px;
+    border: none;
 }
 
 body { margin: 0; }
+
+img#fundo {
+    display: block;
+    width: 100%;
+}
 
